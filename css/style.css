@@ -7,3 +7,51 @@
 body {
     font-family: sans-serif;
 }
+
+body main {
+    background-color: #083b4c;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.main-container h1 {
+    color: white;
+    font-size: 100px;
+}
+
+#containerFizzBuzz {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.standardcube {
+    width: 180px;
+    height: 180px;
+    background-color: #1389b2;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fizzbuzz {
+    background-color: #f0466f;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
